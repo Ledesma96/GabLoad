@@ -1,4 +1,4 @@
-import Portfolio from "."
+import Portfolio from "../Portfolio"
 
 
 
