@@ -527,6 +527,7 @@
 }
 .category__item{
   height: 250px;
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -546,6 +547,7 @@
 
 /*footer layout*/
 .footer{
+  margin-top: 50px;
   background-color: black;
   display: flex;
   flex-direction: column;
