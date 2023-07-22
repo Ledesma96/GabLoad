@@ -59,7 +59,7 @@ const NavBarMin = () => {
                 height={200}
                 onClick={desplegar}
                 className='menu'
-                src="98676 - copia.png"
+                src="/98676 - copia.png"
                 alt=""
               />
               <div style={style}>
