@@ -45,7 +45,7 @@ const NavBarMin = () => {
     width: menu ? '150px' : '0%',
     padding: "5px 15px",
     background: "black",
-    transition: 'height 0.6s ease'
+    transition: 'height 0.3s ease'
   };
 
   return (
