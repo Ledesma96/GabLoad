@@ -5,6 +5,7 @@ import Work from "./components/Work";
 import Items from "./components/Items";
 import Hiring from "./components/Hiring";
 import Link from "next/link";
+import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -13,6 +14,7 @@ export default function Home() {
   
   return (
     <div className="grid">
+    <Analytics />
     <main className="home">
       <div className="home__div">
         <img src="/banner-programacion.jpg" alt="banner con codigos de programacion" />

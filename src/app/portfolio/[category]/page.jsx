@@ -15,9 +15,9 @@ export const categoria = ({params}) => {
   const filterCategory = works.filter(work => work.category == category)
   return (
     <div className="category">
-    {filterCategory.map((item) => {
+    {filterCategory.map((item,index) => {
       return(
-        <div className="category__item" key={item.name}>
+        <div key={index} className="category__item" >
           <h1 className="category__item__name">{item.name}</h1>
           <a href={ "https://" + item.url} target="blanck">
             <Image width={200} height={200} className="category__item__img" src={item.image} alt="mokup de pagina web llamda itanflor en vista mobile, tablet y escritorio" />
