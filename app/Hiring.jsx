@@ -10,8 +10,8 @@ const Hiring = () => {
                 <path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
             </svg>
             <section className='item__section'>
-                <h3 className='item__section__h3'>Elegi tu plan</h3>
-                <p className='item__section__p'>Elegí el plan que mejor se adapte a tus necesidades. Contamos con las caracteriscas que mas se adaptan a vos.
+                <h3 className='item__section__h3'>Elegí tu plan</h3>
+                <p className='item__section__p'>Elegí el plan que mejor se adapte a tus necesidades. Contamos con las características que mas se adaptan a vos.
                 </p>
             </section>
         </div>
@@ -21,7 +21,7 @@ const Hiring = () => {
             </svg>
             <section className='item__section'>
                 <h3 className='item__section__h3'>Aboná el adelanto</h3>
-                <p className='item__section__p'>Despues de haber elegido tu plan ideal, deberás abonar el 50% del total mediante transferencia bancaria o efectivo.
+                <p className='item__section__p'>Después de haber elegido tu plan ideal, deberás abonar el 50% del total mediante transferencia bancaria o efectivo.
                 </p>
             </section>
         </div>

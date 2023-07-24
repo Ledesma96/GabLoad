@@ -11,7 +11,7 @@ const Items = () => {
             </svg>
             <section className='item__section'>
                 <h3 className='item__section__h3'>Sobre nosotros</h3>
-                <p className='item__section__p'>Nos especializamos en la digitalizacion de tu negocio, optimizado para buscadores que resulte en un aumento de tus ventas.
+                <p className='item__section__p'>Nos especializamos en la digitalización de tu negocio, optimizado para buscadores que resulte en un aumento de tus ventas.
                 </p>
             </section>
         </div>

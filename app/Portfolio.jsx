@@ -34,7 +34,7 @@ const Portfolio = () => {
     padding:"5px 15px",
     overflow: 'hidden',
     opacity: border ? "1" : "0",
-    transition: 'height 0.3s ease, border-top 0.3s ease, width 0.5s ease, opacity 5s ease'
+    transition: 'height 0.3s ease, border-top 0.3s ease, width 0.s ease, opacity 2s ease'
   };
 
 
@@ -63,7 +63,7 @@ const Portfolio = () => {
     padding:"5px 15px",
     overflow: 'hidden',
     opacity: border2 ? "1" : "0",
-    transition: 'height 0.3s ease, border-top 0.3s ease, width 0.5s ease, opacity 5s ease'
+    transition: 'height 0.3s ease, border-top 0.3s ease, width 0.2s ease, opacity 2s ease'
   };
 
   /*card 3*/
@@ -90,15 +90,16 @@ const Portfolio = () => {
     marginTop: border3 ? "20px" : "0px",
     padding:"5px 15px",
     overflow: 'hidden',
+    textAlign: "center",
     opacity: border3 ? "1" : "0",
-    transition: 'height 0.3s ease, border-top 0.3s ease, width 0.5s ease, opacity 5s ease'
+    transition: 'height 0.3s ease, border-top 0.3s ease, width 0.2s ease, opacity 2s ease'
   };
 
   
   return (
     <div className='portfolio'>
       <h1 className='portfolio__h1'>Inspirate con nuestros trabajos</h1>
-      <h2 className='portfolio__h2'>Inspírate con nuestros servicios y alcanza el éxito. Destaca, cautiva y logra tus objetivos con soluciones personalizadas. Únete a nuestra comunidad de clientes satisfechos y destaca en tu industria. ¡Descubre un mundo de posibilidades para tu negocio ahora!</h2>
+      <h2 className='portfolio__h2'> ¡Descubre un mundo de posibilidades para tu negocio!</h2>
       <main className='portfolio__main'>
         <div className='card'>
           <a href="/portfolio/e-commerce">
