@@ -13,7 +13,7 @@ const EndsWorks = () => {
         {works.map((work) => {
         return(
           <Link key={work.id}  href={work.url} passHref target='blank' rel="noreferrer">
-            <div className='endsworks__div'>
+            <div key={work.id} className='endsworks__div'>
               <Image className='endesworks__div__img'  src="/logo(3).png" width={200} height={200} alt="logo de gabload" />
                 <aside className='endesworks___div__aside'>
                   <div className='endesworks___div__aside__div'>
