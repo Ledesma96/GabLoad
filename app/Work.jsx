@@ -12,6 +12,7 @@ const Work = () => {
             {works.map((work) => {
                 return(
                 <div className='works__' key={work.id}>
+                    
                     <div className='works__div'>
                         <Image className='works__div__img'  src="/logo(3).png" width={70} height={70} alt="logo de gabload" />
                         <aside className='works___div__aside'>
