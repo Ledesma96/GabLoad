@@ -12,7 +12,6 @@ const EndsWorks = () => {
         <h2 className='endsWorks__h2'>Últimos trabajos</h2>
         {works.map((work) => {
         return(
-          
           <Link  href={work.url} passHref target='blank' rel="noreferrer">
             <div className='endsworks__div'>
               <Image className='endesworks__div__img'  src="/logo(3).png" width={200} height={200} alt="logo de gabload" />
