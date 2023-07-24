@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 import React from 'react'
 const works = [{id:3, fecha:"22 de julio del 2023", image:"/cantineromook.jpg", url:"https://cantinero.netlify.app/"},
@@ -12,13 +13,12 @@ const Work = () => {
             {works.map((work) => {
                 return(
                 <div className='works__' key={work.id}>
-                    
                     <div className='works__div'>
-                        <Image className='works__div__img'  src="/logo(3).png" width={70} height={70} alt="logo de gabload" />
+                        <Image className='works__div__img'  src={"/logo(3).png"} width={70} height={70} alt="logo de gabload" />
                         <aside className='works___div__aside'>
                         <div className='works___div__aside__div'>
                             <h3 className='works___div__aside__div__h3'>GabLoad</h3>
-                            <Image width={30} height={25} src="/Twitter-Verified-Badge-PNG-Transparent-Image.png" alt="Loogo de verificado" />
+                            <Image width={30} height={25} src={"/Twitter-Verified-Badge-PNG-Transparent-Image.png"} alt="Loogo de verificado" />
                             <p className='works___div__aside__div__p'>{work.fecha}</p>
                         </div>
                         <p className='works___div__aside__p'>Trabajo para <a href={work.url} target="blank" rel="noreferrer"><span className='span'>{work.url}</span></a></p>

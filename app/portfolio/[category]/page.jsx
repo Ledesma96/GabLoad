@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image"
 
 const works = [{id:3,name: "Cantinero", category:"e-comerce", image:"/cantineromook.jpg", url:"https://cantinero.netlify.app/"},
