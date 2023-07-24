@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-const works = [{id:2, url:"https://www.cook4souls.com", image:"/c4sMock.jpg", fecha:"19 de julio del 2023"},
+const works = [{id:3, fecha:"22 de julio del 2023", image:"/cantineromook.jpg", url:"https://cantinero.netlify.app/"},
+                {id:2, url:"https://www.cook4souls.com", image:"/c4sMock.jpg", fecha:"19 de julio del 2023"},
                 {id:1,url: "https://www.itanflor.com/", image:"/Reg Hindley.jpg", fecha:"19 de junio del 2023"}
                 ]
 
