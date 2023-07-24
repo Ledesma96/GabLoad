@@ -29,8 +29,8 @@ export default function Home() {
         </div>
         <p className="arroba">@GabLoad</p>
         <aside className="home__section__aside">
-          <p className="home__section__aside__p">Desarrollador web. Diseñamos y desarrollamos la web que soñas.</p>
-          <p className="home__section__aside__p">Potencía tu negocio, agilizá tus ventas.</p>
+          <p className="home__section__aside__p">Desarrollador web. Diseñamos y desarrollamos la web que soñás.</p>
+          <p className="home__section__aside__p">Potenciá tu negocio, agilizá tus ventas.</p>
         </aside>
         <div className="home__section__div2">
           <div className="home__section__div2__icon">

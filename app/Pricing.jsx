@@ -102,7 +102,7 @@ const Pricing = () => {
     </div>
     <div className =" uno grid lg:grid-cols-3 px-6 md:px-12 xl:px-32" >
       <div className =" pricing1" >
-        <div className ="block rounded-lg shadow-lg bg-white h-full lg:rounded-tr-none lg:rounded-br-none" ref={ref} style={style}>
+        <div className ="block pricingBorder rounded-lg shadow-lg bg-white h-full lg:rounded-tr-none lg:rounded-br-none" ref={ref} style={style}>
           <div className ="p-6 border-b border-gray-300 text-center">
             <p className ="uppercase mb-4 text-sm">
               <strong>Basic</strong>
@@ -197,7 +197,7 @@ const Pricing = () => {
         {vermas ? <button className="vermasPricing" onClick={handleClick}>Ocultar</button> : <button className="vermasPricing" onClick={handleClick}>Mostrar</button> }
       </div>
       <div className =" pricing2">
-        <div className ="block rounded-lg shadow-lg bg-white h-full z-10" ref={ref2} style={style2}>
+        <div className ="block pricingBorder rounded-lg shadow-lg bg-white h-full z-10" ref={ref2} style={style2}>
           <div className ="p-6 border-b border-gray-300 text-center">
             <p className ="uppercase mb-4 text-sm">
               <strong>Enterprise</strong>
@@ -307,7 +307,7 @@ const Pricing = () => {
         {vermas2 ? <button className="vermasPricing" onClick={handleClick2}>Ocultar</button>: <button className="vermasPricing" onClick={handleClick2}>Mostrar</button> }
       </div>
       <div className=" pricing3">
-        <div className="block rounded-lg shadow-lg bg-white h-full lg:rounded-tl-none lg:rounded-bl-none" ref={ref3} style={style3}>
+        <div className="block pricingBorder rounded-lg shadow-lg bg-white h-full lg:rounded-tl-none lg:rounded-bl-none" ref={ref3} style={style3}>
           <div className="p-6 border-b border-gray-300 text-center">
             <p className="uppercase mb-4 text-sm">
               <strong>Advanced</strong>
