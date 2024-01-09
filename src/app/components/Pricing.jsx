@@ -124,17 +124,17 @@ const Pricing = () => {
                   <path fill="currentColor"
                     d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
                   </path>
-                </svg>4 paginas
+                </svg>4 páginas
               </li>
               <li className ="mb-4 flex items-center">
               <svg className="nope" color='red' xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"  viewBox="0 0 16 16">
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-              </svg>Catalogo de productos
+              </svg>Catálogo de productos
               </li>
               <li className ="mb-4 flex items-center">
               <svg className="nope" color='red' xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"  viewBox="0 0 16 16">
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-              </svg>Categorias
+              </svg>Categorías
               </li>
               <li className ="mb-4 flex items-center">
                 <svg aria-hidden="true" focusable="false" width="26" height="26" data-prefix="fas" data-icon="check"
@@ -143,7 +143,7 @@ const Pricing = () => {
                   <path fill="currentColor"
                     d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
                   </path>
-                </svg>Pagina de contacto
+                </svg>Página de contacto
               </li>
               <li className ="mb-4 flex items-center">
                 <svg aria-hidden="true" width="26" height="26" focusable="false" data-prefix="fas" data-icon="check"
@@ -218,7 +218,7 @@ const Pricing = () => {
                   <path fill="currentColor"
                     d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
                   </path>
-                </svg>5 paginas
+                </svg>5 páginas
               </li>
               <li className ="mb-4 flex items-center">
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
@@ -227,7 +227,7 @@ const Pricing = () => {
                   <path fill="currentColor"
                     d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
                   </path>
-                </svg>Catalogo de productos
+                </svg>Catálogo de productos
               </li>
               <li className ="mb-4 flex items-center">
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
@@ -236,7 +236,7 @@ const Pricing = () => {
                   <path fill="currentColor"
                     d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
                   </path>
-                </svg>Categorias
+                </svg>Categorías
               </li>
               <li className ="mb-4 flex items-center">
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
@@ -245,7 +245,7 @@ const Pricing = () => {
                   <path fill="currentColor"
                     d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
                   </path>
-                </svg>Pagina de contacto
+                </svg>Página de contacto
               </li>
               <li className ="mb-4 flex items-center">
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
@@ -329,17 +329,17 @@ const Pricing = () => {
                   <path fill="currentColor"
                     d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
                   </path>
-                </svg>4 paginas
+                </svg>4 páginas
               </li>
               <li className ="mb-4 flex items-center">
               <svg className="nope" color='red' xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"  viewBox="0 0 16 16">
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-              </svg>Catalogo de productos
+              </svg>Catálogo de productos
               </li>
               <li className ="mb-4 flex items-center">
               <svg  className="nope" color='red' xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"  viewBox="0 0 16 16">
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-              </svg>Categorias
+              </svg>Categorías
               </li>
               <li className ="mb-4 flex items-center">
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
@@ -348,7 +348,7 @@ const Pricing = () => {
                   <path fill="currentColor"
                     d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
                   </path>
-                </svg>Pagina de contacto
+                </svg>Página de contacto
               </li>
               <li className ="mb-4 flex items-center">
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
