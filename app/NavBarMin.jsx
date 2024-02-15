@@ -60,7 +60,7 @@ const NavBarMin = () => {
                 onClick={desplegar}
                 className='menu'
                 src="/98676 - copia.png"
-                alt=""
+                alt="icono de menu"
               />
               <div style={style}>
                 <ul>

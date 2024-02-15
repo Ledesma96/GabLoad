@@ -196,7 +196,7 @@ const Pricing = () => {
           </div> 
         </div>
         {/* {vermas ? <button className="vermasPricing" onClick={handleClick}>Ocultar</button> : <button className="vermasPricing" onClick={handleClick}>Mostrar</button> } */}
-        <Image width={30} height={30} className={vermas ? "arriba" : "abajo"} src={"/arrow.png"} onClick={handleClick}/>
+        <Image width={30} height={30} className={vermas ? "arriba" : "abajo"} src={"/arrow.png"} onClick={handleClick} alt="icono de ver mas y ocultar"/>
       </div>
       <div className =" pricing2">
         <div className ="block pricingBorder rounded-lg shadow-lg bg-white h-full z-10" ref={ref2} style={style2}>
@@ -306,7 +306,7 @@ const Pricing = () => {
             </ol>
           </div>
         </div>
-        <Image width={30} height={30} className={vermas2 ? "arriba" : "abajo"} src={"/arrow.png"} onClick={handleClick2}/>
+        <Image width={30} height={30} className={vermas2 ? "arriba" : "abajo"} src={"/arrow.png"} onClick={handleClick2} alt="icono de ver mas y ocultar"/>
       </div>
       <div className=" pricing3">
         <div className="block pricingBorder rounded-lg shadow-lg bg-white h-full lg:rounded-tl-none lg:rounded-bl-none" ref={ref3} style={style3}>
@@ -406,7 +406,7 @@ const Pricing = () => {
           </div>
         </div>
         
-        <Image width={30} height={30} className={vermas3 ? "arriba" : "abajo"} src={"/arrow.png"} onClick={handleClick3}/>
+        <Image width={30} height={30} className={vermas3 ? "arriba" : "abajo"} src={"/arrow.png"} onClick={handleClick3} alt="icono de ver mas y ocultar"/>
       </div>
     </div>
   </section>

@@ -26,7 +26,7 @@ const Work = () => {
                         <p className='works___div__aside__p'>Trabajo para <a href={work.url} target="blank" rel="noreferrer"><span className='span'>{work.url}</span></a></p>
                         </aside>
                     </div>
-                    <Image width={200} height={200} className='work__img' src={work.image} alt="mokup de visstas en diferentes dispositivos(celular, tablet, pc)" />
+                    <Image width={200} height={200} className='work__img' src={work.image} alt="mokup de vistas en diferentes dispositivos(celular, tablet, pc)" />
                 </div >
                 )
             })}

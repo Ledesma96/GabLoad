@@ -25,7 +25,7 @@ export default function Home() {
       <section className="home__section">
         <div className="home__section__div">
           <h1 className="home__section__div__h1">GabLoad</h1>
-          <Image width={200} height={200} className="home__section__div__img" src="/Twitter-Verified-Badge-PNG-Transparent-Image.png" alt="" />
+          <Image width={200} height={200} className="home__section__div__img" src="/Twitter-Verified-Badge-PNG-Transparent-Image.png" alt="logo tipo verificado de twitter" />
         </div>
         <p className="arroba">@GabLoad</p>
         <aside className="home__section__aside">
