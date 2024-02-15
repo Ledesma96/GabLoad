@@ -1,8 +1,11 @@
 import Image from "next/image"
 
-const works = [{id:3,name: "Cantinero", category:"e-commerce", image:"/cantineromook.jpg", url:"cantinero.vercel.app/#/"},
-                {id:2,name:"Cook4Soul", url:"www.cook4souls.com", category:"e-commerce", image:"/c4sMock.jpg", fecha:"19 de julio del 2023"},
-                {id:1,name: "ItanFlor", category:"servicios", image:"/Reg Hindley.jpg", url:"www.itanflor.com"}]
+const works = [
+  { id: 4, name: "Bera Positivo", category: "e-commerce", image: "/Reg Hindley.png", url: "www.beramassillones.com" },
+  { id: 3, name: "El Cantinero", category: "e-commerce", image: "/cantineromook.jpg", url: "www.cantinero.netlify.app/" },
+  { id: 2, name: "Cook4Soul", category: "e-commerce", image: "/c4sMock.jpg",  url: "www.cook4souls.com" },
+  { id: 1, name: "ItanFlor", category: "servicios", image: "/Reg Hindley.jpg", url: "www.itanflor.com" }
+]
 
 export const metadata = {
   title: 'GabLoad-Proyects',
