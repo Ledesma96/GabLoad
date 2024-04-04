@@ -14,7 +14,7 @@ export default function Home() {
 
   
   return (
-    <div className="grid">
+    <div className="griid">
     <main className="home">
       <div className="home__div">
         <img src="/banner-programacion.jpg" alt="banner con codigos de programacion" />
