@@ -28,7 +28,7 @@ const Pricing = () => {
     if (vermas) {
       setHeight("400px");
     } else {
-      setHeight("720px");
+      setHeight("750px");
     }
     setVermas(!vermas);
   };
