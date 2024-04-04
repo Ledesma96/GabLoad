@@ -319,12 +319,13 @@
       .uno{
         margin-top: -200px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-left: -45px;
       }
-      .dos{
-        background-color: hsl(0, 0%, 95%)
+      .pricing2{
+        margin-top: 32px;
       }
 
 
@@ -585,6 +586,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 
@@ -847,6 +849,10 @@
     grid-row: 3;
   }
 
+  /* pricing */
+  .uno{
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 1024px){
