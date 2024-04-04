@@ -50,9 +50,9 @@ const Pricing = () => {
 
   const handleClick2 = () => {
     if (vermas2) {
-      setHeight2("390px");
+      setHeight2("400px");
     } else {
-      setHeight2("720px");
+      setHeight2("750px");
     }
     setVermas2(!vermas2);
   };
@@ -76,7 +76,7 @@ const Pricing = () => {
     if (vermas3) {
       setHeight3("400px");
     } else {
-      setHeight3("720px");
+      setHeight3("750px");
     }
     setVermas3(!vermas3);
   };
