@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 .pricingBorder{
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -42,6 +42,10 @@
   width: 0px;
   height: 0px;
   visibility: hidden;
+}
+
+.tems-container-pricing{
+  display: flex;
 }
 
 .vermasPricing{
@@ -313,7 +317,11 @@
             transparent 100%);
       }
       .uno{
-        margin-top: -200px
+        margin-top: -200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -45px;
       }
       .dos{
         background-color: hsl(0, 0%, 95%)
@@ -975,6 +983,7 @@
   }
 
   /*pricing conponent*/
+  
   .vermasPricing{
     padding: 3px;
     color: black;
@@ -996,18 +1005,15 @@
   }
   .pricing1{
     width: 250px;
-    margin-left: -115px;
   }
   .pricing2{
     margin-top: -50px;
     z-index: 2;
     width: 250px;
-    margin-left: -40px;
   }
   .pricing3{
     margin-top: 20px;
     width: 250px;
-    margin-left: 33px;
     z-index: 1;
   }
   
