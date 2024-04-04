@@ -852,7 +852,13 @@
   /* pricing */
   .uno{
     flex-direction: row;
+    justify-content: center;
+    margin-left: 1%;
   }
+  .pricing1, .pricing3{
+    margin-top: 50px;
+  }
+  
 }
 
 @media screen and (min-width: 1024px){
@@ -989,7 +995,9 @@
   }
 
   /*pricing conponent*/
-  
+  .section-pricing{
+    margin-left: -21%;
+  }
   .vermasPricing{
     padding: 3px;
     color: black;

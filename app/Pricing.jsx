@@ -88,7 +88,7 @@ const Pricing = () => {
 
   return (
     <div className="container my-24 px-6 mx-auto " id="pricing">
-      <section className="mb-32 text-gray-800" style={{marginLeft: "-100px"}}>
+      <section className="mb-32 text-gray-800 section-pricing" >
         <div
           id="pricing-block-5"
           className="background-radial-gradient text-center text-white"
