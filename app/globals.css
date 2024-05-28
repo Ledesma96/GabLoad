@@ -1058,6 +1058,10 @@
   }
 
   /*cetegory component*/
+  .category{
+    margin: auto;
+    width: 50%;
+  }
   .category__item{
     margin-left: 15px;
     width: 30%;
